@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MuslimWay/app/src/main/res/drawable/buttonshape.xml" value="0.1855" />
+        <entry key="..\:/MuslimWay/app/src/main/res/drawable/design1.xml" value="0.1075" />
+        <entry key="..\:/MuslimWay/app/src/main/res/drawable/design2.xml" value="0.1075" />
+        <entry key="..\:/MuslimWay/app/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/drawable/sh.xml" value="0.209" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_abluationbyimages.xml" value="0.19595536959553697" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_after.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_azkar.xml" value="0.22826086956521738" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck1.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck10.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck11.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck12.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck2.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck3.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck4.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck5.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck6.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck7.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck8.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_blanck9.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn1.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn10.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn11.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn12.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn13.xml" value="0.2" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn14.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn15.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn2.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn3.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn4.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn5.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn6.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn7.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn8.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_btn9.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_contactus.xml" value="0.16875" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_course_rv_item.xml" value="0.11676798378926039" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_design1.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_fadlelzekr.xml" value="0.264" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_g1.xml" value="0.2222222222222222" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_g2.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_g3.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_howtoablution.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent.xml" value="0.264" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent10.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent11.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent12.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent13.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent14.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent15.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent16.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent17.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent18.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent19.xml" value="0.14084507042253522" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent2.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent20.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent21.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent22.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent23.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent24.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent25.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent26.xml" value="0.12096774193548387" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent27.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent28.xml" value="0.12096774193548387" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent29.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent3.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent30.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent31.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent32.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent33.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent34.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent35.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent36.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent37.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent38.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent39.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent4.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent40.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent41.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent42.xml" value="0.13333333333333333" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent5.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent6.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent7.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent8.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent9.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_intent_h1.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main1.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main10.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main11.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main12.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main2.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main3.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main4.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main5.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main6.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main7.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main8.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_main9.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_morningzekr.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_nightzekr.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_page2.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_page3.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_page4.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_pray_main.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_r1.xml" value="0.2" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_test.xml" value="0.23007246376811594" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_update_course.xml" value="0.1" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_view_courses.xml" value="0.264" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_welcome.xml" value="0.22826086956521738" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/activity_y1.xml" value="0.2" />
+        <entry key="..\:/MuslimWay/app/src/main/res/layout/course_rv_item.xml" value="0.12360688956433637" />
+        <entry key="..\:/MuslimWay/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.19595536959553697" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

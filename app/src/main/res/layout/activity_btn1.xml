@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFF"
+    tools:context=".btn1_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="135dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="126dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/image1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35px"
+                android:text="قَبْلَ الْوُضُوءِ : بِسْمِ اللَّه \n(وقيل يُبَسْمِل الْمُسْلِمِ فِي قَلْبِهِ دُون التلفظ) \nالذَّكَرِ بَعْدَ الْوُضُوءِ :\n
+أَشْهَدُ أَنْ لَا إلَهَ إلَّا إلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَ أَشْهَدُ أَنْ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ اللَّهُمَّ اجْعَلْنِي مِنْ الْمُتَطَهِّرِينَ سُبْحَانَك اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَا إلَهَ إلَّا أَنْتَ أَسْتَغْفِرُك و أَتُوبُ إِلَيْكَ.
+"
+                android:textColor="#050505"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

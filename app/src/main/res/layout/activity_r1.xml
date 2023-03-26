@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/EdtZekrName"
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:hint="ادخل الذكر الخاص بك"
+
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/BtnAddZekr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="إضافه الذكر"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:backgroundTint="#AFE8E8" />
+
+
+    <!--    <Button-->
+    <!--            android:id="@+id/idBtnReadCourse"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_margin="10dp"-->
+    <!--            android:text="Read All Azkar"-->
+    <!--            android:textAllCaps="false"/>-->
+
+</LinearLayout>

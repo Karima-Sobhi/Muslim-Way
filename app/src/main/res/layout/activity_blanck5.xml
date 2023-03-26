@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blanck5">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/page55" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="96dp"
+        android:gravity="center"
+        android:text="ارْكَع . الرُّكُوع اخْتِصَارًا عِبَارَةٌ عَنْ انْحِنَاءٌ . تَبْعُد يَدَيْك عَن بَعْضُهُمَا وتنحني ثُمَّ تَضَعَ يَدَيْكَ عَلِيّ ركبيتك . يَجِبُ أَنْ يُصْبِحَ ظَهْرِك مُوَازِيًا لِلْأَرْض . قُل (الله اكبر) وَأَنْت تَرْكَع . أَثْنَاء رُكُوعِك , قُل (سبحان رَبِّي العظيم) ثَلَاثَ مَرَّاتٍ . .
+"
+        android:textColor="#009688"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="189dp"
+        android:layout_height="278dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/page552" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="ReturntoBlanck4"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="Gotoblanck6"
+        android:text="Next" />
+</RelativeLayout>

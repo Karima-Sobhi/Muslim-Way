@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C009688"
+    tools:context=".blanck12">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="إذَا كُنْت تُصَلِّي أَكْثَرَ مِنْ رَكْعَتَيْنِ ، لَا تَقُلْ التَّشَهُّدِ الْأَخِيرِ أَوْ تُسلّم ، لَكِن قُم بَعْد التشهُّد الْأَوَّل وصلّ الرَّكْعَةِ التَّالِيَةِ . إذَا كُنْت تُصَلِّي أَكْثَرَ مِنْ رَكْعَتَيْنِ ، لَا تَقُلْ التَّشَهُّدِ الْأَخِيرِ أَوْ تُسلّم ، لَكِن قُم بَعْد التشهُّد الْأَوَّل وصلّ الرَّكْعَةِ التَّالِيَةِ . تؤدَّى الرَّكْعَةِ الثَّالِثَةِ تمامًا كَالْأُولَى ، غَيْرَ أَنَّك لَا تَقْرَأُ سُورَةَ أُخْرَى بَعْدَ الْفَاتِحَةِ ، وَتَقُوم بَعْدَ السَّجْدَةِ الثَّانِيَةِ دُونَ قِرَاءَةٍ تشهُّد وَدُون السَّلَام ، إلَّا إذَا كَانَتْ الصَّلَاةُ ثَلَاثَ رَكَعَاتٍ وَكَانَتْ هَذِهِ هِيَ الْأَخِيرَةُ . بَعْدَ الرَّكْعَةِ الْأَخِيرَةِ قُم بِإِتْمَامِ الصَّلَاة بَعْدَ السَّجْدَةِ الثَّانِيَةِ مِنْ خِلَالِ قَوْل التَّشَهُّدِ الْأَوَّلِ وَالثَّانِي وَالسَّلَامُ كَمَا هُوَ مَشْرُوحٌ فِي الْخُطُوَاتِ السَّابِقَة . .
+"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="ReturntoBlanck11"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="ReturnToFirst"
+        android:text="Back" />
+</RelativeLayout>

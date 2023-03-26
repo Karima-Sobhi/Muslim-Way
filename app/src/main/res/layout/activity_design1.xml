@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".design1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="374dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="4dp"
+
+                app:srcCompat="@drawable/page11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:gravity="center"
+                android:text=" اسْتَقْبَلَ الْقِبْلَةَ . الْقِبْلَةَ هِيَ اتِّجَاهٌ الْكَعْبَة .
+تُوجَد الْآن بوصلات مُضَافٌ إلَيْهَا التَّعْرِيف بِاتّجاه الْكَعْبَة .
+يَجِبُ أَنْ تَقِفَ وَتَنْظُر إلَيّ الْمَكَانِ الَّذِي ستسلمه رَأْسَكَ مِنْ الْأَرْضِ أَثْنَاء السُّجُود وَيَجِبُ أَنْ تَكُونَ قَدَمَيْك متباعدتين قَلِيلًا . .
+"
+                android:textColor="#009688"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/page22"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="400dp"
+                android:layout_height="296dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="أَنُو الصَّلَاة . لَسْت بِحَاجَة لِلنُّطْق بِنِيَّتِك بِصَوْتٍ مَسْمُوعٍ , لَكِنَّك سَتَكُون بِحَاجَة لِمَعْرِفَة ماهي الصَّلَاةِ الَّتِي ستقيمها , مَا هِيَ نَوْعٌ الرَّكَعَات وَعَدَدَهَا . مَثَلًا ستفكر : (ساصلي 2/4 رَكَعَات فَرْضٌ / سنه/نافله لِصَلَاة الفجر/الظهر/العصر/المغرب/العشاء) . .
+"
+
+
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="374dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="4dp"
+
+                app:srcCompat="@drawable/page33" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:gravity="center"
+                android:text="كَبَّرَ تَكْبِيرَةً الْإِحْرَامِ . تَبْدَأ هَذِهِ التَّكْبِيرَةَ الصَّلَاة . ارْفَع يَدَيْك . جَاعِلًا رَاحَتَي يَدَيْك متجهتين لِلْإِمَام , حَتَّي تصلا لشحمتي أُذُنَيْك (او للكتفين بِالنِّسْبَة للنساء) . قُل بِصَوْت (الله اكبر) . .
+"
+                android:textColor="#009688"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page442" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="275dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page44" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:gravity="center"
+                android:text="أَدّ الْقِيَام . الْقِيَامَ هُوَ الْوُقُوفُ وَوَضَع يَدَك الْيَمَنِيّ عَلِيّ يَدَك الْيَسَرَي فَوْق صَدْرِك . أَبَدًا بِقِرَاءَةِ الْفَاتِحَةِ (اول سُورَةٍ فِي القران) , وَاقْرَأ سُورَة أَخِّرِي بَعْدَهَا . .
+"
+                android:textColor="#009688"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page552" />
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page55" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:gravity="center"
+                android:text="ارْكَع . الرُّكُوع اخْتِصَارًا عِبَارَةٌ عَنْ انْحِنَاءٌ . تَبْعُد يَدَيْك عَن بَعْضُهُمَا وتنحني ثُمَّ تَضَعَ يَدَيْكَ عَلِيّ ركبيتك . يَجِبُ أَنْ يُصْبِحَ ظَهْرِك مُوَازِيًا لِلْأَرْض . قُل (الله اكبر) وَأَنْت تَرْكَع . أَثْنَاء رُكُوعِك , قُل (سبحان رَبِّي العظيم) ثَلَاثَ مَرَّاتٍ . .
+"
+                android:textColor="#009688"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="302dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="4dp"
+                app:srcCompat="@drawable/age66" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="أَرْفَعَ مِنْ رُكُوعِكَ .
+بَعْدَ الرَّفْعِ قُل (سمع اللَّهُ لِمَنْ حَمِدَهُ , رَبَّنَا وَلَك الحمد) . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView40"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page772" />
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page77" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="أَسْجُد . قل(الله اكبر) مَرَّة أَخِّرِي وَاسْجُد عَلَيَّ الأَرْضُ . تَأَكَّد أَن تَلاَمُس جَبْهَتَك وَكَفَّيْك وركبتيك الْأَرْض . يَجِبُ أَنْ تَلاَمُس أَطْرَافِ أَصَابِعِ الْقَدَمَيْنِ أَيْضًا الْأَرْض . قُل (سبحان رَبِّي الاعلي) ثلات مَرَّات . يَجِبُ أَنْ يَكُونَ كوعيك مرفوعين لَا موضوعين عَلَيَّ الأَرْضُ . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page882" />
+
+                <ImageView
+                    android:id="@+id/imageView41"
+                    android:layout_width="189dp"
+                    android:layout_height="315dp"
+                    app:srcCompat="@drawable/page88" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="اعْتَدَل جَالِسًا وَأَنْتَ تَقُولُ (الله اكبر) . وَأَنْتَ جَالِسٌ , يَجِبُ أَنْ تَنْظُرَ عَيْنَيْك لِلْأَسْفَل نَحْو جُحْرِك . يَجِبُ عَلَيَّ الرَّجُلَ أَنْ يَرْفَعَ كَعْب الْيَمَنِيّ وَيُثْنِي اصعابها وَيَفْتَرِش الْيَسَرَي . أَمَّا النِّسَاءُ يَجْلِسْنَ نَفْس الْجِلْسَة أَو يَتَرَبَّعْن أَو يَجْعَلَنّ ارجلهن بجانبهن , شَرِيطَةٌ أَنْ تَسْتُرَ الْقَدَم . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="4dp"
+                app:srcCompat="@drawable/page99" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="أَسْجُد ثَانِيَة وَأَنْتَ تَقُولُ (الله اكبر) .
+السَّجْدَةِ الثَّانِيَةِ تَمَامًا كالاولي . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:text="أَنْهَض لتُصلّي الرَّكْعَةِ التَّالِيَةِ وَأَنْتَ تَقُولُ (الله أكبر) . الرَّكْعَةِ الثَّانِيَةِ تمامًا كَالْأُولَى ، حَتَّى الْوُصُول لِلسَّجْدَةِ الثَّانِيَةِ لَكِنْ مِنْ دُونِ تَكْبِيرَةٍ الْإِحْرَامِ . اقْرَأ التشهُّد فِي نِهَايَةِ الرَّكْعَةِ الثَّانِيَةِ . اجْلِس بَعْدَ السَّجْدَةِ الثَّانِيَةِ وَاقْرَأ التشهُّد الْأَوَّل (يُعرَف كَذَلِك بالتحيات) . التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ، السَّلَامُ عَلَيْك أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ . أشهدُ أنْ لَا إلَهَ إلَّا اللَّهُ وأشهدُ أنّ محمدًا عَبْدُهُ وَرَسُولُهُ . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:text="إذَا كُنْت تُصَلِّي رَكْعَتَيْنِ فَقَطْ ، فَهَذِهِ هِيَ الرَّكْعَةُ الْأَخِيرَةِ . بَعْدَ قَوْلِ التَّشَهُّدِ الْأَوَّلِ قُل التَّشَهُّدِ الْأَخِيرِ أَوْ الصَّلَاةِ عَلَى النَّبِيِّ :
+اللَّهُمّ صلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْت عَلَى إبْرَاهِيمَ وَعَلَى آلِ إبْرَاهِيمَ وَبَارِكْ اللَّهُمَّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْت عَلَى إبْرَاهِيمَ وَعَلَى آلِ إبْرَاهِيمَ فِي الْعَالَمِينَ إنَّك حميدٌ مجيدثم قُل (اللهم إنِّي ظَلَمْت نَفْسِي ظلمًا كثيرًا وَلَا يَغْفِرُ الذُّنُوبَ إلَّا أَنْتَ فَاغْفِرْ لِي مغفرةً مِنْ عِنْدِكَ وَارْحَمْنِي إنَّك غَفُورٌ رحيم) أَو (ربِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمَنْ ذُرِّيَّتِي رَبَّنَا وتقبّل دعاء* رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الحساب) . ثُمّ أَخْتِم الصَّلَاة بِالنَّظَر نَاحِيَة كَتِفِك الْأَيْمَن (حيثُ يُوجَد الْمُلَّاك الَّذِي يَدُون حسناتك) وَقُل السَّلَام : السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ ثُمَّ اُنْظُرْ ليسارك (حيث يُوجَد الْمُلَّاك الَّذِي يَدُون سيئاتك) وَقُل نَفْس السَّلَام . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="620dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="إذَا كُنْت تُصَلِّي أَكْثَرَ مِنْ رَكْعَتَيْنِ ، لَا تَقُلْ التَّشَهُّدِ الْأَخِيرِ أَوْ تُسلّم ، لَكِن قُم بَعْد التشهُّد الْأَوَّل وصلّ الرَّكْعَةِ التَّالِيَةِ . إذَا كُنْت تُصَلِّي أَكْثَرَ مِنْ رَكْعَتَيْنِ ، لَا تَقُلْ التَّشَهُّدِ الْأَخِيرِ أَوْ تُسلّم ، لَكِن قُم بَعْد التشهُّد الْأَوَّل وصلّ الرَّكْعَةِ التَّالِيَةِ . تؤدَّى الرَّكْعَةِ الثَّالِثَةِ تمامًا كَالْأُولَى ، غَيْرَ أَنَّك لَا تَقْرَأُ سُورَةَ أُخْرَى بَعْدَ الْفَاتِحَةِ ، وَتَقُوم بَعْدَ السَّجْدَةِ الثَّانِيَةِ دُونَ قِرَاءَةٍ تشهُّد وَدُون السَّلَام ، إلَّا إذَا كَانَتْ الصَّلَاةُ ثَلَاثَ رَكَعَاتٍ وَكَانَتْ هَذِهِ هِيَ الْأَخِيرَةُ . بَعْدَ الرَّكْعَةِ الْأَخِيرَةِ قُم بِإِتْمَامِ الصَّلَاة بَعْدَ السَّجْدَةِ الثَّانِيَةِ مِنْ خِلَالِ قَوْل التَّشَهُّدِ الْأَوَّلِ وَالثَّانِي وَالسَّلَامُ كَمَا هُوَ مَشْرُوحٌ فِي الْخُطُوَاتِ السَّابِقَة . .
+"
+                android:textColor="#009688"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

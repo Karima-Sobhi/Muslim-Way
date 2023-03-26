@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF3F6"
+    tools:context=".btn6_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                app:srcCompat="@drawable/image6" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35px"
+                android:text="ذَهَبَ الظَّمَأُ وَابْتَلَّتْ الْعُرُوقُ ، وَثَبَتَ الْأَجْرُ إنْ شَاءَ اللَّهُ .  \nاللَّهُمّ إنَّنِي أَسْأَلُك بِرَحْمَتِك الَّتِي وَسِعَتْ كُلَّ شَيِّ أَنْ تَغْفِرَ لِي . "
+                android:textColor="#050505"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

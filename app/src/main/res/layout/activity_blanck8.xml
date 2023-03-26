@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blanck8">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="191dp"
+        android:layout_height="254dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/page88" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/page882" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="99dp"
+        android:gravity="center"
+        android:text="اعْتَدَل جَالِسًا وَأَنْتَ تَقُولُ (الله اكبر) . وَأَنْتَ جَالِسٌ , يَجِبُ أَنْ تَنْظُرَ عَيْنَيْك لِلْأَسْفَل نَحْو جُحْرِك . يَجِبُ عَلَيَّ الرَّجُلَ أَنْ يَرْفَعَ كَعْب الْيَمَنِيّ وَيُثْنِي اصعابها وَيَفْتَرِش الْيَسَرَي . أَمَّا النِّسَاءُ يَجْلِسْنَ نَفْس الْجِلْسَة أَو يَتَرَبَّعْن أَو يَجْعَلَنّ ارجلهن بجانبهن , شَرِيطَةٌ أَنْ تَسْتُرَ الْقَدَم . .
+"
+        android:textColor="#009688"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="ReturntoBlanck7"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="GotoBlanc9"
+        android:text="Next" />
+</RelativeLayout>

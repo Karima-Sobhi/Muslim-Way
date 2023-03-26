@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFF"
+    tools:context=".btn2_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/image4" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35px"
+                android:text="عَن عبدِ اللَّهِ بنِ عَمرِو بنِ العاصِ رضِيَ اللَّه عنهُما أَنه سَمِع رسُولَ اللَّهِ صَلّى اللهُ عَلَيهِ وسَلَّم يقُولُ :  \n« إِذا سمِعتُمُ النِّداءَ فَقُولُوا مِثلَ ما يَقُولُ ، ثُمَّ صَلٌّوا علَيَّ ، فَإِنَّهُ مَن صَلَّى علَيَّ صَلاةً صَلَّى اللَّه عَلَيهِ بِهَا عشراً ، ثُمَّ سلُوا اللَّه لي الوسِيلَةَ ، فَإِنَّهَا مَنزِلَةٌ في الجنَّةِ لا تَنبَغِي إِلاَّ لعَبدٍ, من عِباد اللَّه وَأَرجُو أَن أَكُونَ أَنَا هُو ، فَمن سَأَل ليَ الوسِيلَة حَلَّت لَهُ الشَّفاعَةُ » رواه مسلم .\n\nوَعن جابرٍ, رضَي اللَّه عنهُ أَنَّ رَسُولَ اللَّهِ صَلّى اللهُ عَلَيهِ وسَلَّم قَالَ : « من قَال حِين يسمعُ النِّداءَ : اللَّهُمَّ رَبَّ هذِهِ الدَّعوةِ التَّامَّةِ ، والصَّلاةِ القَائِمةِ، آت مُحَمَّداً الوسِيلَةَ ، والفَضَيِلَة، وابعثهُ مقَامًا محمُوداً الَّذي وعَدتَه ، حلَّت لَهُ شَفَاعتي يوم القِيامِة » رواه البخاري ."
+                android:textColor="#050505"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

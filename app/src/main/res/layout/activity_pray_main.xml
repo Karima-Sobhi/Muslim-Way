@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8d8ff"
+    tools:context=".PRAY_MAIN">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="الدُّعَاءِ عِنْدَ الْوُضُوءِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="الدُّعَاءِ عِنْدَ سَمَاعِ الْأَذَانِ"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءٌ الرِّزْق"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءِ الْكَرْبِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="الدُّعَاءِ عِنْدَ الْغَضَبِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="الدُّعَاءِ عِنْدَ إفْطَار الصَّائِم"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="الدُّعَاءُ قَبْلَ الطَّعَامِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="الدُّعَاءِ بَعْدَ تَنَاوُلِ الطَّعَامِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءٌ دُخُولِ الْمَسْجِدِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءٌ الْخُرُوجَ مِنْ الْمَسْجِدِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءٌ الْهَمِّ وَالْحَزَنِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءٌ قَضَاءِ الدَّيْنِ"
+                android:textColor="#F4F4F2"
+                android:textSize="25sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="أَدْعِيَة يَوْمَ الْجُمُعَةِ"
+                android:textColor="#F4F4F2"
+                android:textSize="28sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءَ مَنْ أُصِيبَ بِمُصِيبَةٍ"
+                android:textColor="#F4F4F2"
+                android:textSize="26sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="345dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="6px"
+                android:backgroundTint="#A776C5"
+                android:text="دُعَاءٌ الْعُطَاس"
+                android:textColor="#F4F4F2"
+                android:textSize="25sp"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

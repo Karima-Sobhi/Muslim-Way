@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".btn7_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/image5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="40px"
+                android:text="قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ سَلَّمَ إذَا أَكَلَ أَحَدُكُمْ طَعَامًا فَلْيَقُلْ (بسم الله) فَإِنْ نَسِيَ فِي أَوَّلِهِ فَلْيَقُلْ (بسم اللَّهُ فِي أَوَّلِهِ و اخره) . \n\n  مَنْ أَطْعَمَهُ اللَّهُ الطَّعَام فَلْيَقُل : اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَ أَطْعَمَنَا خَيْرًا مِنْهُ ، وَمَنْ سَقَاهُ اللَّهُ لَبَنًا فَلْيَقُلْ الْهَمّ بَارِكْ لَنَا فِيهِ وَزِدْنَا مِنْهُ . "
+                android:textColor="#050505"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

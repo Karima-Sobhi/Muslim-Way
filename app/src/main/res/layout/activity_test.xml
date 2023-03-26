@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:backgroundTint="#619F9A"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Zekr"
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:padding="18dp"
+        app:srcCompat="@drawable/t" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/howtoabluation"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:backgroundTint="#619F9A"
+            android:padding="10dp"
+            android:text="كيفيه الوضوء"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/abluationbyimages"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:backgroundTint="#619F9A"
+            android:padding="10dp"
+            android:text="كيفيه الوضوء بالصور"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/prayafter"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:backgroundTint="#619F9A"
+            android:text="ذكر ما بعد الوضوء"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".btn8_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/image5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35px"
+                android:text="قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : ( مَنْ أَكَلَ طعاماً فَقَال : الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا . وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةَ ، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ ) .  \n\n  و عَنْ أَبِي أُمَامَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ إذَا رَفَعَ مَائِدَتَهُ قَالَ : (الحمد لِلَّه كثيراً طيباً مباركاً فِيهِ غَيْرُ مَكْفِيٍّ وَلَا مُودَعٍ وَلَا مُسْتَغْنًى عَنْ ربنا) . "
+                android:textColor="#050505"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

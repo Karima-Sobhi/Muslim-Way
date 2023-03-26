@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C009688"
+    tools:context=".blanck11">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="579dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="إذَا كُنْت تُصَلِّي رَكْعَتَيْنِ فَقَطْ ، فَهَذِهِ هِيَ الرَّكْعَةُ الْأَخِيرَةِ . بَعْدَ قَوْلِ التَّشَهُّدِ الْأَوَّلِ قُل التَّشَهُّدِ الْأَخِيرِ أَوْ الصَّلَاةِ عَلَى النَّبِيِّ :
+اللَّهُمّ صلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْت عَلَى إبْرَاهِيمَ وَعَلَى آلِ إبْرَاهِيمَ وَبَارِكْ اللَّهُمَّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْت عَلَى إبْرَاهِيمَ وَعَلَى آلِ إبْرَاهِيمَ فِي الْعَالَمِينَ إنَّك حميدٌ مجيدثم قُل (اللهم إنِّي ظَلَمْت نَفْسِي ظلمًا كثيرًا وَلَا يَغْفِرُ الذُّنُوبَ إلَّا أَنْتَ فَاغْفِرْ لِي مغفرةً مِنْ عِنْدِكَ وَارْحَمْنِي إنَّك غَفُورٌ رحيم) أَو (ربِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمَنْ ذُرِّيَّتِي رَبَّنَا وتقبّل دعاء* رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الحساب) . ثُمّ أَخْتِم الصَّلَاة بِالنَّظَر نَاحِيَة كَتِفِك الْأَيْمَن (حيثُ يُوجَد الْمُلَّاك الَّذِي يَدُون حسناتك) وَقُل السَّلَام : السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ ثُمَّ اُنْظُرْ ليسارك (حيث يُوجَد الْمُلَّاك الَّذِي يَدُون سيئاتك) وَقُل نَفْس السَّلَام . .
+"
+        android:textColor="#009688"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="ReturbtoBlanck10"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="GotoBlanck12"
+        android:text="Next" />
+</RelativeLayout>

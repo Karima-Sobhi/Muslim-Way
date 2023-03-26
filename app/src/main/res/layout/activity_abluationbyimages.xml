@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".abluationbyimages">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/one"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/one" />
+
+                <ImageView
+                    android:id="@+id/two"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/two" />
+
+                <ImageView
+                    android:id="@+id/three"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/three" />
+
+                <ImageView
+                    android:id="@+id/four"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/fourr" />
+
+                <ImageView
+                    android:id="@+id/five"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/five" />
+
+                <ImageView
+                    android:id="@+id/six"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/six" />
+
+                <ImageView
+                    android:id="@+id/seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/seven" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

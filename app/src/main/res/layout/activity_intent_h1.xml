@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#B0E3BF88"
+    android:backgroundTint="#B4E3BF88"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".intent_h1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/download" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:backgroundTint="#78502F"
+                android:text="الحديث الأول : الأعمال بالنيات"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثاني : مراتب الدين"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثالث : أركان الإسلام"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الرابع : مراحل الخلق"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الخامس: النهي عن الابتداع في الدين"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#78502F"
+                android:text="الحديث السادس : البعد عن مواطن الشبهات"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث السابع : الدين النصيحه"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثامن :حرمة دم المسلم وماله"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث التاسع: النهي عن كثرة السؤال والتشدد"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث العاشر: سبب إجابة الدعاء"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الحادى:عشر : اترك ما شككت فيه"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثاني عشر: الاشتغال بما يفيد"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثالث عشر :من كمال الإيمان"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الرابع عشر :متى يهدر دم المسلم؟"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الخامس عشر : اكرام الضيف"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث السادس عشر: النهي عن الغضب"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث السابع عشر: الرفق بالحيوان"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثامن عشر : الخلق الحسن"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث التاسع عشر : الإيمان بالقضاء والقدر"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث العشرون: الحياء من الإيمان"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الحادي والعشرون: الاستقامه بالإسلام"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثاني والعشرون: الطريق إلى الجنة"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثالث و العشرون: جوامع الخير"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الرابع و العشرون: من فضل الله على الناس"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الخامس و العشرون: فضل الذكر"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#78502F"
+                android:text="الحديث السادس و العشرون: كثرة طرق الخير"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث السابع و العشرون :تعريف البر والإثم"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثامن والعشرون: السمع والطاعة"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث التاسع و العشرون: بواب الخير"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثلاثون :الوقوف عند حدود الشرع"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الحادي والثلاثون: الزهد في الدنيا"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثاني والثلاثون: لاضرر ولا ضرار"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثالث والثلاثون: البيّنة على المُدَّعي"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الرابع والثلاثون: تغيير المنكر فريضة"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الخامس والثلاثون :المسلم أخو المسلم"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث السادس والثلاثون: قضاء حوائج المسلمين"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث السابع والثلاثون: الترغيب في فعل الحسنات"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:text="الحديث الثامن والثلاثون :جزاء معادات الأولياء"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث التاسع والثلاثون :التجاوز عن الخطأ والنسيان"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الأربعون :كن في الدنيا كأنك غريب"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الحادي والأربعون: اتباع النبي صلى الله عليه وسلم"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#78502F"
+                android:textColor="#FFFFFF"
+                android:text="الحديث الثاني والأربعون :سعة مغفرة الله"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
