@@ -6,18 +6,4 @@
 
 ![muslim way](https://user-images.githubusercontent.com/127060475/227777226-2a34c436-83cf-48a6-a493-60474d27fb9e.jpeg)
 
-#### Build with our team 
-
-رقيه عبد السميع 
-
-شيماء 
-
-هبه محروس 
-
-جهاد محمدي
-
-جهاد مصطفي
-
-ياسمين نصر
-
-و كريمه صبحي
+#### Build with my team and me  
